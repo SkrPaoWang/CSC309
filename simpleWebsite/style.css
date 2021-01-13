@@ -1,0 +1,49 @@
+#content > p {  
+    color: rgb(31, 0, 168);
+}
+nav {
+    
+    color: #fff;
+    text-align: center;
+}
+nav a {
+    color: black;
+    font: bold 25px sans-serif; 
+    background-color: #ACE;
+    display: block;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 0.25em;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;  
+}
+nav a:hover {
+    background-color: black;
+}
+body {
+    color: rgb(0, 104, 5);
+    margin: 0;
+    padding: 0;
+    
+}
+table, th, td {
+    position: relative;
+    border: 1px solid black;
+    
+}
+header {  
+    position: relative;
+    
+}
+h2 {
+    color: rgb(0, 4, 212);
+    background-color: #ACE;
+    display: block;
+    margin: 3px 3px 3px 3px;
+    padding: 30px 10px;  
+}
+h3 {
+    color: #f00;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABC Cabinets</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <div id='content'>
+    <header>
+    <h2>ABC Cabinet</h2>
+    <hr>
+    <h3>Navigation</h3>
+    <nav>
+    <a href='main.html'>Main Page</a>
+    <a href='order.html'>Order Page</a>
+    <hr>
+    </nav>
+    <h3>Order Form</h3>
+    </header>
+    <form>
+    <a>Name: </a><input type='text' id='name' name='name'></br>
+    <a>Address: </a><br>
+    <textarea id="address" name="address" rows="5" cols="33">
+    </textarea></br>
+    <a>Method of payment: </a></br>
+    <input type='radio' id='paymentMC' name='paymentMC' value='MasterCard'>
+    <label for="paymentMC">MasterCard</label></br>
+    <input type='radio' id='paymentV' name='paymentV' value='Visa'>
+    <label for="paymentV">Visa</label></br>
+    <input type='radio' id='paymentA' name='paymentA' value='Amex'>
+    <label for="paymentA">Amex</label></br>
+    <a>Credit Card #: </a> <input type='text' id='creditCard' name='creditCard'></br>
+    <a>Items: </a></br>
+    <input type="checkbox" id="single" name="single" value="single">
+    <label for="single">Single Cabinet $30.00</label></br>
+    <input type="checkbox" id="double" name="double" value="double">
+    <label for="double">Double Cabinet $50.00</label></br>
+    <input type="checkbox" id="drawer" name="drawer" value="drawer">
+    <label for="drawer">Drawer $20.00</label></br>
+    <a>Colour: </a>
+    <select>
+    <option value="white">White</option>
+    <option value="black">Black</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="red">Red</option>
+    </select></br>
+    <input type="reset" />
+    <input type="submit" />
+    </form>
+    </div>
+</body>
+</html>
+
+
